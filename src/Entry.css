@@ -1,0 +1,160 @@
+.entryBox {
+  position: relative;
+  left: 1%;
+  width: 97%;
+  background-color: transparent;
+  border: none;
+  margin: 20px;
+}
+.entryHeader {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 95%;
+  background-color:  transparent;
+  border: none;
+  border-bottom: 3px solid black;
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+.entryTitle {
+    position: relative;
+    width: 100%;
+    min-width: 200px;
+    font-family: 'MS Serif';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: black;
+    /* border: 1px solid black; */
+    border: none;
+    /* background-color: rgba(0,0,0, 0.3); */
+    background-color: transparent;
+    cursor: text;
+}
+.entryDescription {
+    /* position: relative; */
+    display: inline-block;
+    width: 94%;
+    /* height: 50px; */
+    font-family: 'Courier';
+    font-size: 17px;
+    font-weight: 300;
+    color: black;
+    /* border: 0.1px solid black; */
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.05);
+    padding: 10px;
+    margin: 10px;
+    /* margin-top: 5px; */
+    cursor: text;
+}
+.entryTimeBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.entrySubTitle {
+    position: relative;
+    font-family: 'Garamond';
+    font-size: 20px;
+    white-space: nowrap;
+    color: black;
+    border: none;
+    background-color: transparent;
+    margin: 5px;
+}
+.entrySubInput {
+    position: relative;
+    font-family: 'Garamond';
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    border: none;
+    background-color: transparent;
+    width: 50px;
+    margin: 5px;
+    cursor: text;
+}
+.entryTimingHeader {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 95%;
+  background-color:  maroon;
+  border-radius: 15px;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 5px;
+}
+.entryTimingTitle {
+    position: relative;
+    width: 100%;
+    min-width: 200px;
+    font-family: 'MS Serif';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: white;
+    /* border: 1px solid black; */
+    border: none;
+    /* background-color: rgba(0,0,0, 0.3); */
+    background-color: transparent;
+    cursor: text;
+}
+.entryTimingSubTitle {
+  position: relative;
+  font-family: 'Garamond';
+  font-size: 20px;
+  white-space: nowrap;
+  color: white;
+  border: none;
+  background-color: transparent;
+  margin: 5px;
+}
+.directionArrowBox{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 10px;
+}
+.arrowIcon {
+  position: relative;
+  height: 10px;
+  width: 25px;
+  background-color: transparent;
+  margin: 2px;
+  margin-right: 10px;
+}
+.arrowIcon:hover {
+  border: 1px solid black;
+  cursor: n-resize;
+}
+.recordIcon {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  padding: 5px;
+}
+.recordIcon:hover{
+  background-color: forestgreen;
+  cursor: crosshair;
+}

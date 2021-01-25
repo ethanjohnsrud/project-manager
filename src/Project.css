@@ -1,0 +1,99 @@
+.projectBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 1%;
+    width: 97%;
+    background-color: transparent;
+    margin: 20px;
+    padding: 5px;
+}
+.projectHeader {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 97%;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+.projectTitle {
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    font-family: 'MS Serif';
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: white;
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 5%;
+    /* background-color: rgba(0,0,0, 0.3); */
+    background-color: transparent;
+    cursor: text;
+}
+.projectDescription {
+    position: relative;
+    display: inline-block;
+    left: 1.5%;
+    width: 95%;
+    height: 100px;
+    font-family: 'Courier';
+    font-size: 17px;
+    font-weight: 300;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.05);
+    padding: 10px;
+    margin: 5px;
+    cursor: text;
+}
+.projectTimeBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* min-width: 250px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.projectSubTitle {
+    position: relative;
+    font-family: 'Garamond';
+    font-size: 20px;
+    white-space: nowrap;
+    color: white;
+    border: none;
+    background-color: transparent;
+    /* margin: 5px; */
+}
+.projectSubInput {
+    position: relative;
+    font-family: 'Garamond';
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: transparent;
+    width: 45px;
+    margin: 5px;
+    cursor: text;
+}
+.projectLine {
+    position: relative;
+    height: 2px;
+    min-width: 750px;
+    max-width: 75%;
+    border-radius: 50%;
+    background-color: white;
+    cursor: row-resize;
+}

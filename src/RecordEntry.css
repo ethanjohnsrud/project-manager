@@ -1,0 +1,67 @@
+.recordEntryBox {
+    position: relative;
+    left: 1%;
+    width: 97%;
+    background-color: transparent;
+    border: none;
+    margin: 20px;
+  }
+  .recordEntryHeader {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 95%;
+    background-color:  transparent;
+    border: none;
+    border-bottom: 3px solid black;
+    margin: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .recordEntryTitle {
+      position: relative;
+      width: 100%;
+      min-width: 200px;
+      font-family: 'MS Serif';
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      color: black;
+      /* border: 1px solid black; */
+      border: none;
+      /* background-color: rgba(0,0,0, 0.3); */
+      background-color: transparent;
+      cursor: text;
+  }
+  .recordEntryDescription {
+      /* position: relative; */
+      display: inline-block;
+      width: 94%;
+      height: 50px;
+      font-family: 'Courier';
+      font-size: 17px;
+      font-weight: 300;
+      color: black;
+      /* border: 0.1px solid black; */
+      border: none;
+      border-radius: 5px;
+      background-color: rgba(0,0,0, 0.05);
+      padding: 10px;
+      margin: 10px;
+      /* margin-top: 5px; */
+      cursor: text;
+  }
+  .recordEntrySubTitle {
+    position: relative;
+    font-family: 'Garamond';
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    border: none;
+    background-color: transparent;
+    margin: 5px;
+    cursor: text;
+}
+  
